@@ -1,0 +1,32 @@
+Iterative statements:
+Iterative statements are also known as loops
+there are 3 types of loops in java
+i.while-loop
+ii.do--while loop
+iii.for loop
+*while loop:while loop is used when we don't know how many times the loop will be executed.
+syntax-
+  while(condition){
+   statement block;
+  }
+  statement-x;
+ In while loop first condition will be checked if condition is true,the statements in the statement block gets executed
+if condition is false the control goes to next immediate statement(statement-x)
+*do--while loop:
+ syntax-
+  do{
+   statement block;
+  }while(condition);
+  statement-x;
+  In do--while loop the statement in the statement block gets executed once then the condition wiil be checked-this is the main
+difference between while loop and do--while loop.
+*for loop:for loop is used when we know how many times the statements will be executed
+  syntax-
+   for(initialization;condition;increment/decrement)
+   {
+    statement block;
+   }
+   statement-x;
+   in for loop first the condition will be checked if condition is true it executes the statements in statement block
+  then it go for increment/decrement.the loop will be executed until the condition is false,if condition is false the control 
+ will goes to the next immediate statement.
